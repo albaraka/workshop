@@ -1,0 +1,32 @@
+body{
+    height: 2000px;
+}
+.jumbotron{
+    background: url('https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0f9d1e666beae8d2a5082f7c1d27b31b&auto=format&fit=crop&w=1500&q=80');
+    width:1365px;
+    height: 450px;
+}
+.text{
+    text-align: center;
+    color: rgb(199, 192, 192);
+}
+#text{
+    position: relative;    
+}
+#box{
+    background-color: rgb(199, 192, 192);    
+    width: 320px
+}
+#box:hover{
+  
+    box-shadow: 2px 3px #888888;
+}
+#box img{
+    padding-top: 10px;
+    position: relative;
+    left: 10px;   
+}
+.area{
+    font-family: sans-serif;
+    text-align: center;
+}
